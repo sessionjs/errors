@@ -1,4 +1,4 @@
-import { SessionJsError } from "./index"
+import { SessionJsError } from "./session-js"
 
 export enum SessionFetchErrorCode {
   RetryWithOtherNode421Error = 'retry_with_other_node_421_error',

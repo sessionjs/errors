@@ -1,4 +1,4 @@
-import { SessionJsError } from "./index"
+import { SessionJsError } from "./session-js"
 
 export enum SessionValidationErrorCode {
   InvalidMnemonic = 'invalid_mnemonic',
