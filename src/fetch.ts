@@ -7,7 +7,8 @@ export enum SessionFetchErrorCode {
   FetchFailed = 'fetch_failed',
   InvalidResponse = 'invalid_response',
   PollingFailed = 'polling_failed',
-  UploadFailed = 'upload_failed'
+  UploadFailed = 'upload_failed',
+  Generic = 'generic'
 }
 
 /** Generic error for cases where developer does something incorrectly */
