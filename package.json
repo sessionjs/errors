@@ -1,6 +1,6 @@
 {
   "name": "@session.js/errors",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "module": "src/index.ts",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
