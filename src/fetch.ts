@@ -19,7 +19,7 @@ export class SessionFetchError extends SessionJsError {
     code: SessionFetchErrorCode,
     message: string
   }) {
-    super(message)
+    super({ code, message })
     this.code = code
   }
 }

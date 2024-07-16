@@ -14,7 +14,7 @@ export class SessionCryptoError extends SessionJsError {
     code: SessionCryptoErrorCode,
     message: string
   }) {
-    super(message)
+    super({ code, message })
     this.code = code
   }
 }

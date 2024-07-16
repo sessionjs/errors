@@ -17,7 +17,7 @@ export class SessionRuntimeError extends SessionJsError {
     code: SessionRuntimeErrorCode,
     message: string
   }) {
-    super(message)
+    super({ code, message })
     this.code = code
   }
 }

@@ -21,7 +21,7 @@ export class SessionValidationError extends SessionJsError {
     code: SessionValidationErrorCode, 
     message: string
   }) {
-    super(message)
+    super({ code, message })
     this.code = code
   }
 }
