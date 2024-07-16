@@ -1,6 +1,7 @@
 import { SessionJsError } from "./session-js"
 
 export enum SessionValidationErrorCode {
+  InvalidAttachment = 'invalid_attachment',
   InvalidMnemonic = 'invalid_mnemonic',
   InvalidDisplayName = 'invalid_display_name',
   InvalidSessionID = 'invalid_session_id',

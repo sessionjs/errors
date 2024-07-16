@@ -7,6 +7,7 @@ export enum SessionRuntimeErrorCode {
   MultipleInstancesNotAllowed = 'multiple_instances_not_allowed',
   NoInstancePolling = 'no_instance_polling',
   InstanceAlreadyAuthorized = 'instance_already_authorized',
+  NetworkNotProvided = 'network_not_provided',
 }
 
 /** Generic error for cases where developer does something incorrectly */
