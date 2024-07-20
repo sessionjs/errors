@@ -7,6 +7,8 @@ export enum SessionValidationErrorCode {
   InvalidSessionID = 'invalid_session_id',
   InvalidPoller = 'invalid_poller',
   InvalidNamespaces = 'invalid_namespaces',
+  InvalidOptions = 'invalid_options',
+  InvalidAvatar = 'invalid_avatar',
   NotOurPubkeyNotLegacyClosedGroup = 'not_our_pubkey_not_legacy_closed_group',
   NotZeroNamespaceNotLegacyClosedGroup = 'not_zero_namespace_not_legacy_closed_group',
   UnsupportedFeature = 'unsupported_feature',
