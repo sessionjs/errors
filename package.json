@@ -1,30 +1,39 @@
 {
-  "name": "@session.js/errors",
-  "version": "1.0.10",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "author": "Viktor Shchelochkov <hi@hloth.dev> (https://hloth.dev)",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sessionjs/errors.git"
-  },
-  "bugs": {
-    "url": "https://github.com/sessionjs/errors/issues"
-  },
-  "homepage": "https://github.com/sessionjs/errors#readme",
-  "description": "Session.js errors classes",
-  "type": "module",
-  "files": [
-    "dist/**.js",
-    "dist/**.d.ts"
-  ],
-  "scripts": {
-    "build": "rm -rf dist && tsc --project tsconfig.build.json && tsc-alias -p tsconfig.build.json --resolve-full-paths"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
-  "devDependencies": {
-    "tsc-alias": "^1.8.10"
-  }
+	"name": "@session.js/errors",
+	"version": "1.0.11",
+	"description": "Session.js errors classes",
+	"homepage": "https://git.hloth.dev/session.js/errors#readme",
+	"bugs": {
+		"url": "https://git.hloth.dev/session.js/errors/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://git.hloth.dev/session.js/errors.git"
+	},
+	"funding": "https://hloth.dev/donate",
+	"license": "MIT",
+	"author": "Viktor Shchelochkov <hi@hloth.dev> (https://hloth.dev)",
+	"type": "module",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist/**.js",
+		"dist/**.d.ts",
+		"README.md",
+		"LICENSE"
+	],
+	"scripts": {
+		"build": "rm -rf dist && tsc --project tsconfig.build.json && tsc-alias -p tsconfig.build.json --resolve-full-paths"
+	},
+	"devDependencies": {
+		"@eslint/compat": "^2.0.1",
+		"@eslint/js": "^9.39.2",
+		"eslint-config-prettier": "^10.1.8",
+		"prettier": "^3.8.0",
+		"tsc-alias": "^1.8.10",
+		"typescript-eslint": "^8.53.1"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
 }
